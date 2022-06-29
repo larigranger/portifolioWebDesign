@@ -1,0 +1,140 @@
+     * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100rem;
+    margin: auto;
+    padding: 0 32px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0E3063;
+    margin: 4.9rem 13.1rem 30rem 12.8rem;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    font-family: 'Nova Slim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.0rem;
+    color: #FF5C00;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+    font-size: 2.4rem;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+h1 {
+    font-family: 'Nova Slim', cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #FFFFFF;
+}
+
+header {
+    max-width: 75rem;
+}
+
+nav {
+    margin-bottom: 2.9rem;
+}
+
+.habilidades__geral {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 4.2rem;
+    line-height: 5.4rem;
+    color: #0E3063;
+    text-align: center;
+    margin-bottom: 2.3rem;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dev {
+    color: #FF5900;
+    text-align: left;
+    font-family: 'Nova Slim', cursive;
+    font-size: 3.7rem;
+}
+
+.projetos h2 {
+    font-family: 'Nova Slim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #FF5900;
+    margin-top: 3rem;
+}
+
+.projetos {
+    margin-bottom: 7.4rem;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato__geral {
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    height: 16.1rem;
+}
+
+.contato h4 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    color: #144C9F;
+}
+
+.contato article {
+    display: flex;
+    align-items: flex-end;
+}
+
+.foto {
+    position: absolute;
+    right: 0;
+    bottom: 23.4rem;
+}
